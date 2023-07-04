@@ -1,0 +1,47 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+main {
+    background-color: bisque;
+    border: 2px solid brown;
+    border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin-top: 15rem;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
